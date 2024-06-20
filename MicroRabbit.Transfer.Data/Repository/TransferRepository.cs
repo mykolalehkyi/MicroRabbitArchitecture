@@ -22,5 +22,11 @@ namespace MicroRabbit.Transfer.Data.Repository
         {
             return _ctx.TransferLogs;
         }
+
+        public void Add(TransferLog log)
+        {
+            _ctx.TransferLogs.Add(log);
+            _ctx.SaveChanges();
+        }
     }
 }
