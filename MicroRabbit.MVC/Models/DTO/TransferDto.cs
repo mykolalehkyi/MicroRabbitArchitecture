@@ -4,8 +4,8 @@ namespace MicroRabbit.MVC.Models.DTO
 {
     public class TransferDto
     {
-        public int Id { get; set; }
-        public string AccountType { get; set; }
-        public decimal AccountBalance { get; set; }
+        public int FromAccount { get; set; }
+        public int ToAccount { get; set; }
+        public decimal TransferAmount { get; set; }
     }
 }
