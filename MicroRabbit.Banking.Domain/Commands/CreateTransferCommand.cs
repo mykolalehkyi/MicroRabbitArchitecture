@@ -11,7 +11,7 @@ namespace MicroRabbit.Banking.Domain.Commands
         public CreateTransferCommand(int from, int to, decimal amount) 
         {
             this.From = from;
-            this.To = to; ;
+            this.To = to;
             this.Amount = amount;
         }
     }

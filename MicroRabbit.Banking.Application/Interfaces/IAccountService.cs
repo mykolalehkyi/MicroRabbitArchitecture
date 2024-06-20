@@ -12,6 +12,6 @@ namespace MicroRabbit.Banking.Application.Interfaces
     {
         IEnumerable<Account> GetAccounts();
         void Transfer(AccountTransfer accountTransfer);
-
+        
     }
 }
